@@ -1,4 +1,136 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: azure;
+    font-family: 'Oxygen', Arial, Helvetica, sans-serif;
+    background-color: rgb(136, 107, 184);
+    
+}
+
+.header {
+    display: flex;
+}
+
+header {
+   
+    background-color: rgb(236, 236, 236);
+    border: 1px blue solid;
+    line-height: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    justify-content: flex-start;
+
+    
+}
+
+.header {
+   
+    margin-left: 2rem;
+    
+}
+
+.header img {
+    
+    height : 180px;
+    
+    
+  }
+
+  .infos {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding-left: 2rem;
+   
+  }
+
+  .infos p {
+    padding-left: 2rem;
+    padding-top: 1rem;
+    font-style: italic;
+
+  }
+
+header strong {
+
+    color: rgb(64, 167, 167);
+
+}
+
+h3 {
+    border: 1px blue solid;
+    margin-top: 1rem;
+    line-height: 2rem;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+
+
+.cv-container {
+    margin: auto;
+    width: 80%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.column {
+    display: flex;
+    
+}
+
+  .left-column{
+    border-left: 1px blue solid;
+    padding: 2rem;
+    background-color: #e2868b;
+    color: white;
+    width: 40%;
+  }
+
+  .right-column{
+    border-right: 1px blue solid;
+    background-color: rgb(64, 167, 167);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 2rem;
+    color: white;
+    width: 100%;
+  }
+
+
+h1 {
+
+    font-size: 2rem;
+    padding-left: 2rem;
+
+}
+
+h2 {
+
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+    
+}
+
+.section {
+
+    border: 1px blue solid;
+    margin-top: 1rem;
+    line-height: 2rem;
+    padding: 1rem;
+    
+
+}
+
+.footer {
+    font-weight:bold ;
+    background-color: rgb(236, 236, 236);
+    text-align: center;
+    border: 1px blue solid;
+    line-height: 2rem;
+    padding: 1rem;
+    width: 100%;
+    
+    
 }
